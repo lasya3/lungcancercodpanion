@@ -1,0 +1,45 @@
+TREATMENT OPTIONS FOR LUNG CANCER
+
+Treatment approaches depend on the type of lung cancer, stage, overall health, and personal preferences. 
+Treatment is typically managed by a multidisciplinary team including oncologists, pulmonologists, and surgeons.
+
+Main Treatment Types:
+
+1. Surgery:
+   - Lobectomy: Removal of an entire lobe of the lung
+   - Pneumonectomy: Removal of an entire lung
+   - Wedge resection: Removal of a small section of lung
+   - Used primarily for early-stage non-small cell lung cancer
+
+2. Chemotherapy:
+   - Uses drugs to kill cancer cells or stop them from growing
+   - Can be given before surgery (neoadjuvant), after surgery (adjuvant), or as primary treatment
+   - Administered in cycles with rest periods
+
+3. Radiation Therapy:
+   - Uses high-energy rays to kill cancer cells
+   - Can be external beam or internal (brachytherapy)
+   - Often used in combination with other treatments
+
+4. Targeted Therapy:
+   - Uses drugs that target specific genetic mutations in cancer cells
+   - Requires genetic testing of the tumor
+   - Examples include EGFR inhibitors, ALK inhibitors, ROS1 inhibitors
+
+5. Immunotherapy:
+   - Helps the immune system recognize and attack cancer cells
+   - Checkpoint inhibitors (PD-1/PD-L1 inhibitors) are common
+   - Can be used alone or with chemotherapy
+
+6. Combination Therapy:
+   - Many patients receive multiple treatments in sequence or combination
+
+Side Effects:
+All treatments have potential side effects. It's important to discuss these with your healthcare team 
+and report any symptoms promptly. Palliative care can help manage symptoms and improve quality of life.
+
+Clinical Trials:
+Participation in clinical trials may provide access to new treatments. Discuss options with your healthcare team.
+
+Important: Treatment decisions should be made in consultation with qualified medical professionals who 
+can assess your specific situation.

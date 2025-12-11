@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LumoCare: Lung Cancer Companion</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <span class="logo-icon">🫁</span>
+                <div class="title-section">
+                    <h1>LumoCare</h1>
+                    <p class="subtitle">Your Intelligent Lung Cancer Companion</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Warning Banner -->
+    <div class="warning-banner">
+        <span class="warning-icon">⚠️</span>
+        <span class="warning-text">Important: This chatbot provides general information only. It is not a substitute for professional medical advice. Always consult healthcare providers for personal medical decisions.</span>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <h2>Quick Topics</h2>
+            <button class="topic-btn" onclick="handleTopicClick('Tell me about symptoms and early detection')">
+                <span class="btn-icon">🩺</span>
+                Symptoms & Early Detection
+            </button>
+            <button class="topic-btn" onclick="handleTopicClick('What are the treatment options for lung cancer?')">
+                <span class="btn-icon">💊</span>
+                Treatment Options
+            </button>
+            <button class="topic-btn" onclick="handleTopicClick('What is the latest research on lung cancer?')">
+                <span class="btn-icon">📜</span>
+                Latest Research
+            </button>
+            <button class="topic-btn" onclick="handleTopicClick('What support resources are available?')">
+                <span class="btn-icon">🎗️</span>
+                Support Resources
+            </button>
+            <button class="topic-btn emergency-btn" onclick="handleTopicClick('What are emergency symptoms I should watch for?')">
+                <span class="btn-icon">🆘</span>
+                Emergency Resources
+            </button>
+        </aside>
+
+        <!-- Chat Area -->
+        <main class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <p>Hello! I'm LumoCare, your Lung Cancer Companion. 🍵</p>
+                        <p>I'm here to provide reliable information about:</p>
+                        <ul>
+                            <li>Symptoms and early detection</li>
+                            <li>Treatment options</li>
+                            <li>Latest research updates</li>
+                            <li>Support resources</li>
+                        </ul>
+                        <p>How can I help you today?</p>
+                    </div>
+                    <div class="message-time">Just now</div>
+                </div>
+            </div>
+
+            <!-- Suggested Questions -->
+            <div class="suggested-questions" id="suggestedQuestions">
+                <button class="suggested-btn" onclick="handleQuestionClick('What are the symptoms of lung cancer?')">What are the symptoms?</button>
+                <button class="suggested-btn" onclick="handleQuestionClick('Tell me about treatments')">Tell me about treatments</button>
+                <button class="suggested-btn" onclick="handleQuestionClick('Find support groups')">Find support groups</button>
+            </div>
+
+            <!-- Input Area -->
+            <div class="chat-input-container">
+                <input 
+                    type="text" 
+                    id="userInput" 
+                    class="chat-input" 
+                    placeholder="Type your question here..."
+                    onkeypress="handleKeyPress(event)"
+                />
+                <button class="send-btn" onclick="sendMessage()">Send</button>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Debug: Check if script loads
+        console.log('HTML loaded, loading script...');
+    </script>
+    <script src="/static/script.js"></script>
+    <script>
+        // Verify functions are available
+        if (typeof sendMessage === 'function') {
+            console.log('✅ All functions loaded successfully!');
+        } else {
+            console.error('❌ Functions not loaded! Check script.js');
+        }
+    </script>
+</body>
+</html>
+
