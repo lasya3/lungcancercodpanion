@@ -1,0 +1,6 @@
+Stages of lung cancer
+Lung cancer is staged from 0 to IV, with higher numbers meaning more advanced cancer.
+- Stage 0/I: Early, localized to lungs
+- Stage II/III: Spread within chest
+- Stage IV: Spread to other organs (metastatic)
+SCLC uses "limited" vs "extensive" staging.
